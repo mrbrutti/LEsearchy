@@ -298,6 +298,7 @@ end
 
 opts = GetoptLong.new(
 [ '--help', '-h', GetoptLong::NO_ARGUMENT ],
+['--query','-q', GetoptLong::REQUIRED_ARGUMENT ],
 ['--dir','-d', GetoptLong::REQUIRED_ARGUMENT ],
 ['--file','-f', GetoptLong::REQUIRED_ARGUMENT ],
 ['--pattern','-p', GetoptLong::REQUIRED_ARGUMENT ],
